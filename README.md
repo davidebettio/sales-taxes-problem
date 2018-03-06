@@ -1,4 +1,4 @@
-# Sales Taxes Problem
+# Sales Taxes Problem [![Build/Test Status](https://travis-ci.org/davidebettio/sales-taxes-problem.svg?branch=master)](https://travis-ci.org/davidebettio/sales-taxes-problem)
 
 ## Install
 Run in your console,
@@ -59,7 +59,7 @@ npm lint
 ## Author
 Davide Bettio
 
-[http://davidebettio.com](https://davidebettio.com)
+[http://davidebettio.com](http://davidebettio.com)
 
 ## LICENSE
 MIT
