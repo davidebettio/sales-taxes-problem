@@ -14,6 +14,8 @@ class Parser {
         const quantity = parseInt(rawQuantity, 10);
         const price = parseFloat(rawPrice);
         const imported = rawName.includes(conf.import.keyword);
+        // the 'imported' word is removed from the name and used
+        // in the product class as a property
         const name = rawName
           .replace(conf.import.keyword, '')
           .replace(/  +/g, ' ')

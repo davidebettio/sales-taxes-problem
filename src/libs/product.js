@@ -12,6 +12,7 @@ class Product {
     this.name = name;
     this.price = price;
     this.imported = imported;
+    // key is used in the cart to not duplicate the product if already added
     this.key = `${name}_${imported}_${price}`.replace(/\s+/g, '_');
   }
 
