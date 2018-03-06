@@ -29,5 +29,10 @@ describe('Product', () => {
       const product = new Product('book', 15.34, false);
       assert.equal(product.fullName(), 'book');
     });
+
+    it('should generate key correctly', () => {
+      const product = new Product('book', 15.34, false);
+      assert.equal(product.key, 'book_false_15.34');
+    });
   });
 });
