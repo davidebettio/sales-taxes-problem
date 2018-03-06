@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "mocha/no-exclusive-tests": "error",
+    "no-console": "off",
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^_[a-e]?$" }],
+    "function-paren-newline": "off"
+  }
+}
