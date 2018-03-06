@@ -20,40 +20,30 @@ Install dependencies:
 ```
 cd sales-taxes-problem
 yarn install
-# or with npm
-npm install
 ```
 
 ## Run with samples in 'inputs' folder
 
 ```
 yarn start
-# or with npm
-npm start
 ```
 
 ## Test
 
 ```
 yarn test
-# or with npm
-npm test
 ```
 
 to watch for files changes:
 
 ```
 yarn test:watch
-# or with npm
-npm test:watch
 ```
 
 ## Lint
 
 ```
 yarn lint
-# or with npm
-npm lint
 ```
 
 ## Author
