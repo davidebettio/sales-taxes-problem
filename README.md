@@ -11,7 +11,7 @@ Or, without git,
 
 ```
 wget https://github.com/davidebettio/sales-taxes-problem/archive/master.tar.gz
-tar -xf sales-taxes-problem-master.tar.gz
+tar -xf master.tar.gz
 mv sales-taxes-problem-master sales-taxes-problem
 ```
 
